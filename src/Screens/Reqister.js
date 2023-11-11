@@ -10,15 +10,13 @@ const Reqister = () => {
         style={{height: 200, width: 360}}
       />
       <Text
-        style={{s
+        style={{
           textAlign: 'center',
           fontWeight: 'bold',
           fontSize: 15,
           marginTop: 50,
           color: 'black',
         }}>
-        Buatlah akun terlebih dahulu untuk terhubung ke apk psb,klik mulai di
-        bawah ini dan ikuti langkah langkahnya
       </Text>
       <TouchableOpacity
         style={{

@@ -50,18 +50,17 @@ const App = ({navigation}) => {
           marginHorizontal: 80,
           marginVertical: 10,
           borderRadius: 5,
-          borderBottomWidth: 1,
+          borderBottomWidth: 1,elevation:10
         }}></TextInput>
       <TextInput
         style={{
-          borderBottomRightRadius: 5,
           width: 200,
           height: 35,
           backgroundColor: 'white',
           marginHorizontal: 80,
           marginVertical: 10,
           borderRadius: 5,
-          borderBottomWidth: 1,
+          borderBottomWidth: 1,elevation:10
         }}></TextInput>
       <TouchableOpacity
         style={{
