@@ -10,7 +10,7 @@ const Reqister = () => {
         style={{height: 200, width: 360}}
       />
       <Text
-        style={{
+        style={{s
           textAlign: 'center',
           fontWeight: 'bold',
           fontSize: 15,
