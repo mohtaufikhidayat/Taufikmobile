@@ -2,11 +2,11 @@ import * as React from 'react';
 import {useState, useEffect} from 'react';
 import {View, Image, Text, TouchableOpacity, TextInput} from 'react-native';
 
-const App = ({navigation}) => {
+const Login = ({navigation}) => {
   return (
     <View>
       <Image
-        source={require('../aset/image/dowload.jpg')}
+        source={require('../../aset/image/dowload.jpg')}
         style={{
           height: 140,
           width: 140,
@@ -50,7 +50,8 @@ const App = ({navigation}) => {
           marginHorizontal: 80,
           marginVertical: 10,
           borderRadius: 5,
-          borderBottomWidth: 1,elevation:10
+          borderBottomWidth: 1,
+          elevation: 10,
         }}></TextInput>
       <TextInput
         style={{
@@ -60,9 +61,11 @@ const App = ({navigation}) => {
           marginHorizontal: 80,
           marginVertical: 10,
           borderRadius: 5,
-          borderBottomWidth: 1,elevation:10
+          borderBottomWidth: 1,
+          elevation: 10,
         }}></TextInput>
       <TouchableOpacity
+        onPress={() => navigation.navigate('Home')}
         style={{
           backgroundColor: 'green',
           paddingVertical: 2,
@@ -101,4 +104,4 @@ const App = ({navigation}) => {
   );
 };
 
-export default App;
+export default Login;
