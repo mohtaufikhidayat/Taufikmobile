@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {useState, useEffect} from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, } from 'react-native';
 
 const App = ({navigation}) => {
   return (
@@ -49,6 +49,8 @@ const App = ({navigation}) => {
           </Text>
         </View>
       </View>
+      
+        <Image source={require('../../aset/image/stan.jpg')}style={{width: 500, height: 400,marginTop: 20,}} />
     </View>
   );
 };

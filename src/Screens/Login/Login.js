@@ -6,10 +6,10 @@ const Login = ({navigation}) => {
   return (
     <View>
       <Image
-        source={require('../../aset/image/dowload.jpg')}
+        source={require('../../aset/image/iconpp.png')}
         style={{
-          height: 140,
-          width: 140,
+          height: 210,
+          width: 220,
           marginHorizontal: 110,
           marginVertical: 80,
         }}
@@ -18,8 +18,8 @@ const Login = ({navigation}) => {
         style={{
           textAlign: 'center',
           bottom: 60,
-          fontSize: 20,
-          fontWeight: 'bold',
+          fontSize: 23,
+          fontWeight: 'bold', color: 'black', marginHorizontal: 80
         }}>
         Pendaftaran Santri Baru
       </Text>
@@ -27,8 +27,8 @@ const Login = ({navigation}) => {
         style={{
           textAlign: 'center',
           bottom: 60,
-          fontSize: 18,
-          fontWeight: 'bold',
+          fontSize: 19,
+          fontWeight: 'bold', color: 'black', marginHorizontal: 80
         }}>
         Pp Darul Ulum II Al Wahidiyah
       </Text>
@@ -37,7 +37,7 @@ const Login = ({navigation}) => {
           textAlign: 'center',
           marginTop: 10,
           fontSize: 15,
-          fontWeight: 'bold',
+          fontWeight: 'bold', color: 'black', height: 20, marginLeft: 24
         }}>
         Silahkan Masuk
       </Text>
@@ -47,7 +47,7 @@ const Login = ({navigation}) => {
           width: 200,
           height: 40,
           backgroundColor: 'white',
-          marginHorizontal: 80,
+          marginHorizontal: 120,
           marginVertical: 10,
           borderRadius: 5,
           borderBottomWidth: 1,
@@ -58,7 +58,7 @@ const Login = ({navigation}) => {
           width: 200,
           height: 35,
           backgroundColor: 'white',
-          marginHorizontal: 80,
+          marginHorizontal: 120,
           marginVertical: 10,
           borderRadius: 5,
           borderBottomWidth: 1,
@@ -68,10 +68,10 @@ const Login = ({navigation}) => {
         onPress={() => navigation.navigate('Home')}
         style={{
           backgroundColor: 'green',
-          paddingVertical: 2,
+          paddingVertical: 5,
           width: 120,
           height: 30,
-          marginHorizontal: 120,
+          marginHorizontal: 163,
           marginVertical: 1,
           borderRadius: 20,
         }}>
@@ -93,9 +93,9 @@ const Login = ({navigation}) => {
           style={{
             textAlign: 'center',
             width: 120,
-            marginHorizontal: 120,
+            marginHorizontal: 163,
             marginTop: 20,
-            fontSize: 15,
+            fontSize: 15, color: 'black', fontWeight: 'bold'
           }}>
           Buat Akun Baru
         </Text>

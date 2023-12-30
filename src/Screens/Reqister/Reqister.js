@@ -7,50 +7,50 @@ const Reqister = ({navigation}) => {
     <View>
       <Image
         source={require('../../aset/image/stan.jpg')}
-        style={{height: 200, width: 360}}
+        style={{height: 200, width: 500}}
       />
       <TextInput
         placeholder="MASUKKAN NAMA"
         style={{
           elevation: 2,
-          backgroundColor: 'white',
+          backgroundColor: 'green',
           marginHorizontal: 30,
           borderRadius: 10,
           marginBottom: 3,
-          marginTop: 70,
+          marginTop: 70, textAlign: 'center'
         }}
       />
       <TextInput
         placeholder="GENDER"
         style={{
-          backgroundColor: 'white',
+          backgroundColor: 'green',
           elevation: 2,
           marginHorizontal: 30,
           borderRadius: 10,
           marginBottom: 3,
-          marginTop: 20,
+          marginTop: 20, textAlign: 'center'
         }}
       />
       <TextInput
         placeholder="BUAT EMAIL"
         style={{
-          backgroundColor: 'white',
+          backgroundColor: 'green',
           elevation: 2,
           marginHorizontal: 30,
           borderRadius: 10,
           marginBottom: 3,
-          marginTop: 20,
+          marginTop: 20, textAlign: 'center'
         }}
       />
       <TextInput
         placeholder="BUAT PASSWORD"
         style={{
-          backgroundColor: 'white',
+          backgroundColor: 'green',
           elevation: 2,
           marginHorizontal: 30,
           borderRadius: 10,
           marginBottom: 5,
-          marginTop: 20,
+          marginTop: 20, textAlign: 'center'
         }}
       />
 
@@ -60,7 +60,7 @@ const Reqister = ({navigation}) => {
           backgroundColor: 'white',
           marginTop: 30,
           width: 80,
-          marginHorizontal: 140,
+          marginHorizontal: 175,
           height: 30,
           borderRadius: 10,
           elevation: 3,
@@ -70,7 +70,7 @@ const Reqister = ({navigation}) => {
             textAlign: 'center',
             marginTop: 4,
             fontSize: 15,
-            fontWeight: 'bold',
+            fontWeight: 'bold', color: 'black', marginHorizontal: 2
           }}>
           Done
         </Text>

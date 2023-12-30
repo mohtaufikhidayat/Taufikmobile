@@ -5,7 +5,7 @@ import {View, Image, Text, TouchableOpacity} from 'react-native';
 const Start = ({navigation}) => {
   return (
     <View>
-      <Image source={require('../../aset/image/iconstart.jpg')} style={{width:370,height:200,marginHorizontal:2}}/>
+      <Image source={require('../../aset/image/iconstart.jpg')} style={{width:450,height:200,marginHorizontal:1}}/>
       <TouchableOpacity
         onPress={() => navigation.navigate('Login')}
         style={{
@@ -13,7 +13,7 @@ const Start = ({navigation}) => {
           width: 150,
           backgroundColor: 'white',
           marginTop: 80,
-          marginHorizontal: 110,
+          marginHorizontal: 140,
           elevation: 3,
           borderRadius: 10,
         }}>

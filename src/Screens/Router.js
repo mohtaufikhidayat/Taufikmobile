@@ -9,7 +9,7 @@ import Start from './Start/Start';
 import Reqister from './Reqister/Reqister';
 import Home from './Home/Home';
 import Profil from './Profil/Profil';
-import Blog from './Blog/Blog';
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
